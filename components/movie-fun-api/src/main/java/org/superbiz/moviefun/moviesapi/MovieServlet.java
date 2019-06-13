@@ -39,6 +39,7 @@ public class MovieServlet extends HttpServlet {
     //private MoviesRepository moviesBean;
 
     private MoviesClient moviesClient;
+
     public MovieServlet(MoviesClient moviesClient) {
         this.moviesClient = moviesClient;
     }
